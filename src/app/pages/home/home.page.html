@@ -1,0 +1,21 @@
+<ion-header [translucent]="true">
+
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="home">
+    <img src="/assets/bonbon-questions.png" />
+
+    <div class="background-logo">
+      <span class="title-logo">QUIZ</span>
+    </div>
+
+    <div class="list-button">
+      <ion-button class="primary button" (click)="goToMenu()">Categories</ion-button>
+      <ion-button class="secondary button" (click)="goToRanks()">Ranks</ion-button>
+      <ion-button class="tertiary button" (click)="goToSettings()">Settings</ion-button>
+    </div>
+
+    <img src="/assets/bonbon-questions.png" class="rotate180" />
+  </div>
+</ion-content>

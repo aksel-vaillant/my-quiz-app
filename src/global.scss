@@ -24,3 +24,6 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+/* Adding my scss file on every page */
+@import "/src/theme/mySetup.scss";

@@ -1,0 +1,802 @@
+[
+	{
+		"pseudo": "Savage",
+		"score": 180
+	},
+	{
+		"pseudo": "Hickman",
+		"score": 64
+	},
+	{
+		"pseudo": "Cannon",
+		"score": 143
+	},
+	{
+		"pseudo": "Coffey",
+		"score": 131
+	},
+	{
+		"pseudo": "Lancaster",
+		"score": 90
+	},
+	{
+		"pseudo": "Atkinson",
+		"score": 141
+	},
+	{
+		"pseudo": "Knight",
+		"score": 31
+	},
+	{
+		"pseudo": "Mason",
+		"score": 177
+	},
+	{
+		"pseudo": "Kirkland",
+		"score": 118
+	},
+	{
+		"pseudo": "Wilcox",
+		"score": 139
+	},
+	{
+		"pseudo": "Lucas",
+		"score": 168
+	},
+	{
+		"pseudo": "Stout",
+		"score": 139
+	},
+	{
+		"pseudo": "Chandler",
+		"score": 109
+	},
+	{
+		"pseudo": "Landry",
+		"score": 47
+	},
+	{
+		"pseudo": "Chapman",
+		"score": 127
+	},
+	{
+		"pseudo": "Middleton",
+		"score": 100
+	},
+	{
+		"pseudo": "Crane",
+		"score": 43
+	},
+	{
+		"pseudo": "Clements",
+		"score": 23
+	},
+	{
+		"pseudo": "Stout",
+		"score": 191
+	},
+	{
+		"pseudo": "Castaneda",
+		"score": 100
+	},
+	{
+		"pseudo": "Mack",
+		"score": 25
+	},
+	{
+		"pseudo": "Kane",
+		"score": 130
+	},
+	{
+		"pseudo": "Pugh",
+		"score": 101
+	},
+	{
+		"pseudo": "Walton",
+		"score": 43
+	},
+	{
+		"pseudo": "Dominguez",
+		"score": 41
+	},
+	{
+		"pseudo": "Greene",
+		"score": 49
+	},
+	{
+		"pseudo": "Riddle",
+		"score": 155
+	},
+	{
+		"pseudo": "Hurst",
+		"score": 121
+	},
+	{
+		"pseudo": "Ramsey",
+		"score": 59
+	},
+	{
+		"pseudo": "Pierce",
+		"score": 92
+	},
+	{
+		"pseudo": "Wiggins",
+		"score": 2
+	},
+	{
+		"pseudo": "Fields",
+		"score": 165
+	},
+	{
+		"pseudo": "Little",
+		"score": 45
+	},
+	{
+		"pseudo": "Mclean",
+		"score": 4
+	},
+	{
+		"pseudo": "Stuart",
+		"score": 115
+	},
+	{
+		"pseudo": "Trujillo",
+		"score": 110
+	},
+	{
+		"pseudo": "Phelps",
+		"score": 176
+	},
+	{
+		"pseudo": "Maddox",
+		"score": 83
+	},
+	{
+		"pseudo": "Massey",
+		"score": 35
+	},
+	{
+		"pseudo": "Best",
+		"score": 74
+	},
+	{
+		"pseudo": "Kramer",
+		"score": 91
+	},
+	{
+		"pseudo": "Case",
+		"score": 56
+	},
+	{
+		"pseudo": "Mclean",
+		"score": 60
+	},
+	{
+		"pseudo": "Hunter",
+		"score": 80
+	},
+	{
+		"pseudo": "Harmon",
+		"score": 28
+	},
+	{
+		"pseudo": "Hopkins",
+		"score": 113
+	},
+	{
+		"pseudo": "Hartman",
+		"score": 163
+	},
+	{
+		"pseudo": "Clark",
+		"score": 141
+	},
+	{
+		"pseudo": "Saunders",
+		"score": 112
+	},
+	{
+		"pseudo": "Irwin",
+		"score": 125
+	},
+	{
+		"pseudo": "Mcgowan",
+		"score": 176
+	},
+	{
+		"pseudo": "Livingston",
+		"score": 68
+	},
+	{
+		"pseudo": "Hartman",
+		"score": 196
+	},
+	{
+		"pseudo": "Wilkins",
+		"score": 179
+	},
+	{
+		"pseudo": "Oneil",
+		"score": 116
+	},
+	{
+		"pseudo": "Dunn",
+		"score": 155
+	},
+	{
+		"pseudo": "Lang",
+		"score": 200
+	},
+	{
+		"pseudo": "Arnold",
+		"score": 154
+	},
+	{
+		"pseudo": "Wilkerson",
+		"score": 23
+	},
+	{
+		"pseudo": "Cantu",
+		"score": 25
+	},
+	{
+		"pseudo": "Dixon",
+		"score": 137
+	},
+	{
+		"pseudo": "Steele",
+		"score": 99
+	},
+	{
+		"pseudo": "Hopkins",
+		"score": 80
+	},
+	{
+		"pseudo": "Williams",
+		"score": 42
+	},
+	{
+		"pseudo": "Fisher",
+		"score": 37
+	},
+	{
+		"pseudo": "Sherman",
+		"score": 17
+	},
+	{
+		"pseudo": "Hensley",
+		"score": 23
+	},
+	{
+		"pseudo": "Hunt",
+		"score": 102
+	},
+	{
+		"pseudo": "Aguirre",
+		"score": 25
+	},
+	{
+		"pseudo": "Battle",
+		"score": 171
+	},
+	{
+		"pseudo": "Meyers",
+		"score": 123
+	},
+	{
+		"pseudo": "Buchanan",
+		"score": 97
+	},
+	{
+		"pseudo": "Strickland",
+		"score": 124
+	},
+	{
+		"pseudo": "Armstrong",
+		"score": 150
+	},
+	{
+		"pseudo": "Nguyen",
+		"score": 26
+	},
+	{
+		"pseudo": "Bradford",
+		"score": 162
+	},
+	{
+		"pseudo": "Reid",
+		"score": 129
+	},
+	{
+		"pseudo": "Ingram",
+		"score": 151
+	},
+	{
+		"pseudo": "Cummings",
+		"score": 17
+	},
+	{
+		"pseudo": "Vasquez",
+		"score": 126
+	},
+	{
+		"pseudo": "Mclaughlin",
+		"score": 15
+	},
+	{
+		"pseudo": "Russell",
+		"score": 18
+	},
+	{
+		"pseudo": "Dale",
+		"score": 192
+	},
+	{
+		"pseudo": "Jensen",
+		"score": 23
+	},
+	{
+		"pseudo": "Vasquez",
+		"score": 176
+	},
+	{
+		"pseudo": "Silva",
+		"score": 59
+	},
+	{
+		"pseudo": "Prince",
+		"score": 115
+	},
+	{
+		"pseudo": "Holcomb",
+		"score": 63
+	},
+	{
+		"pseudo": "Hughes",
+		"score": 45
+	},
+	{
+		"pseudo": "Lane",
+		"score": 92
+	},
+	{
+		"pseudo": "Williams",
+		"score": 62
+	},
+	{
+		"pseudo": "Hensley",
+		"score": 28
+	},
+	{
+		"pseudo": "Dejesus",
+		"score": 120
+	},
+	{
+		"pseudo": "Booth",
+		"score": 148
+	},
+	{
+		"pseudo": "Branch",
+		"score": 6
+	},
+	{
+		"pseudo": "Hood",
+		"score": 196
+	},
+	{
+		"pseudo": "Silva",
+		"score": 75
+	},
+	{
+		"pseudo": "Bauer",
+		"score": 120
+	},
+	{
+		"pseudo": "O'donnell",
+		"score": 74
+	},
+	{
+		"pseudo": "Crane",
+		"score": 161
+	},
+	{
+		"pseudo": "Pena",
+		"score": 191
+	},
+	{
+		"pseudo": "Davis",
+		"score": 184
+	},
+	{
+		"pseudo": "Vaughn",
+		"score": 162
+	},
+	{
+		"pseudo": "Hughes",
+		"score": 17
+	},
+	{
+		"pseudo": "Bryant",
+		"score": 186
+	},
+	{
+		"pseudo": "Montoya",
+		"score": 81
+	},
+	{
+		"pseudo": "Mccormick",
+		"score": 84
+	},
+	{
+		"pseudo": "Burke",
+		"score": 79
+	},
+	{
+		"pseudo": "Molina",
+		"score": 9
+	},
+	{
+		"pseudo": "Bradley",
+		"score": 53
+	},
+	{
+		"pseudo": "Luna",
+		"score": 68
+	},
+	{
+		"pseudo": "Ruiz",
+		"score": 188
+	},
+	{
+		"pseudo": "Ashley",
+		"score": 140
+	},
+	{
+		"pseudo": "Zamora",
+		"score": 181
+	},
+	{
+		"pseudo": "Gilmore",
+		"score": 185
+	},
+	{
+		"pseudo": "Lynch",
+		"score": 143
+	},
+	{
+		"pseudo": "Kim",
+		"score": 63
+	},
+	{
+		"pseudo": "Rivers",
+		"score": 139
+	},
+	{
+		"pseudo": "Dudley",
+		"score": 83
+	},
+	{
+		"pseudo": "Suarez",
+		"score": 95
+	},
+	{
+		"pseudo": "Hoffman",
+		"score": 43
+	},
+	{
+		"pseudo": "Alston",
+		"score": 171
+	},
+	{
+		"pseudo": "Randall",
+		"score": 91
+	},
+	{
+		"pseudo": "Mathews",
+		"score": 156
+	},
+	{
+		"pseudo": "Brewer",
+		"score": 124
+	},
+	{
+		"pseudo": "Beach",
+		"score": 36
+	},
+	{
+		"pseudo": "Craig",
+		"score": 172
+	},
+	{
+		"pseudo": "Wolfe",
+		"score": 7
+	},
+	{
+		"pseudo": "Hall",
+		"score": 169
+	},
+	{
+		"pseudo": "Gilmore",
+		"score": 187
+	},
+	{
+		"pseudo": "Holt",
+		"score": 61
+	},
+	{
+		"pseudo": "Kent",
+		"score": 25
+	},
+	{
+		"pseudo": "Lott",
+		"score": 55
+	},
+	{
+		"pseudo": "Galloway",
+		"score": 165
+	},
+	{
+		"pseudo": "Monroe",
+		"score": 172
+	},
+	{
+		"pseudo": "Irwin",
+		"score": 191
+	},
+	{
+		"pseudo": "Wyatt",
+		"score": 90
+	},
+	{
+		"pseudo": "Burns",
+		"score": 57
+	},
+	{
+		"pseudo": "Stein",
+		"score": 147
+	},
+	{
+		"pseudo": "Harding",
+		"score": 150
+	},
+	{
+		"pseudo": "Browning",
+		"score": 80
+	},
+	{
+		"pseudo": "Finley",
+		"score": 130
+	},
+	{
+		"pseudo": "Woodward",
+		"score": 59
+	},
+	{
+		"pseudo": "Shelton",
+		"score": 67
+	},
+	{
+		"pseudo": "Floyd",
+		"score": 113
+	},
+	{
+		"pseudo": "Summers",
+		"score": 30
+	},
+	{
+		"pseudo": "Barnes",
+		"score": 145
+	},
+	{
+		"pseudo": "Walters",
+		"score": 66
+	},
+	{
+		"pseudo": "Woodward",
+		"score": 66
+	},
+	{
+		"pseudo": "Schroeder",
+		"score": 138
+	},
+	{
+		"pseudo": "Dawson",
+		"score": 100
+	},
+	{
+		"pseudo": "Wiggins",
+		"score": 153
+	},
+	{
+		"pseudo": "David",
+		"score": 106
+	},
+	{
+		"pseudo": "Yang",
+		"score": 151
+	},
+	{
+		"pseudo": "Buchanan",
+		"score": 89
+	},
+	{
+		"pseudo": "Hays",
+		"score": 131
+	},
+	{
+		"pseudo": "Wilcox",
+		"score": 165
+	},
+	{
+		"pseudo": "Williamson",
+		"score": 12
+	},
+	{
+		"pseudo": "Craig",
+		"score": 168
+	},
+	{
+		"pseudo": "Andrews",
+		"score": 109
+	},
+	{
+		"pseudo": "Yang",
+		"score": 73
+	},
+	{
+		"pseudo": "Christian",
+		"score": 24
+	},
+	{
+		"pseudo": "Kemp",
+		"score": 173
+	},
+	{
+		"pseudo": "Mcclain",
+		"score": 184
+	},
+	{
+		"pseudo": "Moore",
+		"score": 88
+	},
+	{
+		"pseudo": "Swanson",
+		"score": 51
+	},
+	{
+		"pseudo": "Ewing",
+		"score": 141
+	},
+	{
+		"pseudo": "Cherry",
+		"score": 3
+	},
+	{
+		"pseudo": "Munoz",
+		"score": 144
+	},
+	{
+		"pseudo": "Gill",
+		"score": 34
+	},
+	{
+		"pseudo": "Dixon",
+		"score": 74
+	},
+	{
+		"pseudo": "Lambert",
+		"score": 52
+	},
+	{
+		"pseudo": "Mckay",
+		"score": 100
+	},
+	{
+		"pseudo": "Slater",
+		"score": 128
+	},
+	{
+		"pseudo": "Cook",
+		"score": 65
+	},
+	{
+		"pseudo": "Dillon",
+		"score": 155
+	},
+	{
+		"pseudo": "Brown",
+		"score": 134
+	},
+	{
+		"pseudo": "Mayer",
+		"score": 41
+	},
+	{
+		"pseudo": "Brady",
+		"score": 171
+	},
+	{
+		"pseudo": "Underwood",
+		"score": 67
+	},
+	{
+		"pseudo": "Ellis",
+		"score": 71
+	},
+	{
+		"pseudo": "Solis",
+		"score": 164
+	},
+	{
+		"pseudo": "Solomon",
+		"score": 134
+	},
+	{
+		"pseudo": "Palmer",
+		"score": 72
+	},
+	{
+		"pseudo": "Marsh",
+		"score": 115
+	},
+	{
+		"pseudo": "Yang",
+		"score": 45
+	},
+	{
+		"pseudo": "Knowles",
+		"score": 181
+	},
+	{
+		"pseudo": "Pennington",
+		"score": 123
+	},
+	{
+		"pseudo": "Gray",
+		"score": 97
+	},
+	{
+		"pseudo": "Boyer",
+		"score": 39
+	},
+	{
+		"pseudo": "Vaughan",
+		"score": 118
+	},
+	{
+		"pseudo": "Bell",
+		"score": 141
+	},
+	{
+		"pseudo": "Cline",
+		"score": 184
+	},
+	{
+		"pseudo": "Jarvis",
+		"score": 63
+	},
+	{
+		"pseudo": "James",
+		"score": 127
+	},
+	{
+		"pseudo": "Witt",
+		"score": 93
+	},
+	{
+		"pseudo": "Delgado",
+		"score": 174
+	},
+	{
+		"pseudo": "Dillard",
+		"score": 62
+	},
+	{
+		"pseudo": "Frank",
+		"score": 78
+	},
+	{
+		"pseudo": "Hutchinson",
+		"score": 76
+	}
+]

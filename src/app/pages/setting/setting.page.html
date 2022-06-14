@@ -1,0 +1,41 @@
+<ion-header>
+  <ion-toolbar class="tertiary">
+    <ion-buttons slot="start">
+      <ion-back-button text="" color="light"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Settings</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  
+  <div class="container">
+    <h6>Parameters</h6>
+
+    <ion-item class="item-parameter">
+      <ion-label>Duration</ion-label>
+      <ion-select [value]="duration" (ionChange)="changeDuration($event)">
+        <ion-select-option *ngFor="let s of durations" [value]="s">{{s}}</ion-select-option>
+      </ion-select>
+    </ion-item>
+
+    <ion-item class="item-parameter">
+      <ion-label>Difficulty</ion-label>
+      <ion-select [value] = "difficulty" (ionChange)="changeDifficulty($event)">
+        <!-- Changing the value to capatitalize the first letter -->
+        <ion-select-option *ngFor="let s of difficulties" [value]="s">{{(s.charAt(0).toUpperCase() + s.slice(1))}}</ion-select-option>
+      </ion-select>
+    </ion-item>
+
+    <ion-item class="item-parameter">
+      <ion-label>Type</ion-label>
+      <ion-select placeholder="Select One" [value]="type" (ionChange)="changeType($event)">
+        <ion-select-option value="any">Any</ion-select-option>
+        <ion-select-option value="multiple">Multiple choices</ion-select-option>
+        <ion-select-option value="boolean">True/False</ion-select-option>
+      </ion-select>
+    </ion-item>
+  </div>
+  
+  <ion-button class="item-button tertiary button" (click)="goToMenu()">Save and play</ion-button>
+</ion-content>

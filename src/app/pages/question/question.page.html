@@ -1,0 +1,48 @@
+<ion-content>
+
+  <div class="bgContainer">
+    <div class="container" *ngIf="currentQuestion">
+      <ion-progress-bar [value]="p_value_timer"></ion-progress-bar>
+      <span id="showScore">Score : {{score}}</span>
+
+      <ion-card class="question-card">
+        <ion-card-title>Question {{counter+1}}/{{maxQuestion}}</ion-card-title>
+        <ion-card-content>{{decodeURI(currentQuestion.question)}}</ion-card-content>
+      </ion-card> 
+      
+      <div class="possibleResponse">
+        <ion-item id="item0" *ngIf="allAnswers[0]" (click)="checkIfIamRight(allAnswers[0], 'item0')">
+          <ion-label>{{decodeURI(allAnswers[0])}}</ion-label>
+        </ion-item>
+        <ion-item id="item1" *ngIf="allAnswers[1]" (click)="checkIfIamRight(allAnswers[1], 'item1')">
+          <ion-label>{{decodeURI(allAnswers[1])}}</ion-label>
+        </ion-item>
+        <ion-item id="item2" *ngIf="allAnswers[2]" (click)="checkIfIamRight(allAnswers[2], 'item2')">
+          <ion-label>{{decodeURI(allAnswers[2])}}</ion-label>
+        </ion-item>
+        <ion-item id="item3" *ngIf="allAnswers[3]" (click)="checkIfIamRight(allAnswers[3], 'item3')">
+          <ion-label>{{decodeURI(allAnswers[3])}}</ion-label>
+        </ion-item>
+      </div>
+    </div>
+  
+
+    <ion-card *ngIf="counter>=maxQuestion" class="result question-card">
+      <div *ngIf="score>=(maxQuestion/2)">
+        <img src="assets/icon8-eastwood-done.png" height="180px">
+        <ion-card-title>Wow!<br/>You are good!!</ion-card-title>
+      </div>
+
+      <div *ngIf="score<=(maxQuestion/2)">
+        <img src="assets/icon8-experimental-shit-happens.png" height="180px">
+        <ion-card-title>Sorry!<br/>It was really hard...</ion-card-title>
+      </div>
+
+      <ion-card-content>You had {{score}}/{{maxQuestion}}!</ion-card-content>
+      <ion-card-content>You won {{points}} point(s)!</ion-card-content>      
+   
+      
+      <button class="button-85" role="button" (click)="goToMenu()">Back to menu</button>
+    </ion-card>
+  </div>
+</ion-content>

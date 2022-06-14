@@ -1,0 +1,69 @@
+<ion-header>
+  <ion-toolbar class="primary">
+    <ion-buttons slot="start">
+      <ion-back-button text="" color="light"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Categories</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-grid>  
+    <ion-row class="ion-align-items-center">  
+      <ion-col class="ion-text-center" (click)="gettingQuestionsByCategory(0)">
+        All
+      </ion-col>
+    
+      <ion-col class="ion-text-center" (click)="gettingQuestionsByCategory(9)">
+        General
+      </ion-col>
+    </ion-row>
+
+    <ion-row class="ion-align-items-center">
+      <ion-col class="ion-text-center" (click)="gettingQuestionsByCategory(10)">
+        Books
+      </ion-col>
+      <ion-col class="ion-text-center" (click)="gettingQuestionsByCategory(11)">
+        Film
+      </ion-col>
+    </ion-row>
+
+    <ion-row class="ion-align-items-center">
+      <ion-col class="ion-text-center" (click)="gettingQuestionsByCategory(20)">
+        Mythology
+      </ion-col>
+      <ion-col class="ion-text-center" (click)="gettingQuestionsByCategory(21)">
+        Sports
+      </ion-col>
+    </ion-row>
+
+    <ion-row class="ion-align-items-center">
+      <ion-col class="ion-text-center" (click)="gettingQuestionsByCategory(22)">
+        Geography
+      </ion-col>
+      <ion-col class="ion-text-center" (click)="gettingQuestionsByCategory(23)">
+        History
+      </ion-col>
+    </ion-row>
+
+    <ion-row class="ion-align-items-center">
+      <ion-col class="ion-text-center" (click)="gettingQuestionsByCategory(25)">
+        Art
+      </ion-col>
+      <ion-col class="ion-text-center" (click)="gettingQuestionsByCategory(27)">
+        Animal
+      </ion-col>
+    </ion-row>
+
+    <ion-row class="ion-align-items-center">
+      <ion-col class="ion-text-center" (click)="gettingQuestionsByCategory(19)">
+        Math
+      </ion-col>
+      <ion-col class="ion-text-center" (click)="gettingQuestionsByCategory(17)">
+        Science
+      </ion-col>
+    </ion-row>
+  
+  </ion-grid>
+</ion-content>

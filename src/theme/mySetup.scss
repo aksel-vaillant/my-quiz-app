@@ -1,0 +1,426 @@
+@import url("https://fonts.googleapis.com/css2?family=Prosto+One&display=swap");
+
+/********* COLORS ************/
+
+$color-background: #1e2644;
+$color-border: #244a6b;
+$color-border-light: #3d85c4;
+
+$color-logo: linear-gradient(90deg, #8a2387 0%, #e94057 46.96%, #f27121 91.67%);
+
+$color-primary: #f27121;
+$color-primary-shade: #c36f4b;
+
+$color-secondary: #e94057;
+$color-secondary-shade: #b83b5e;
+
+$color-tertiary: #8a2387;
+$color-tertiary-shade: #6a2c70;
+
+$color-light: #f4f5f8;
+$color-light-shade: #d7d8da;
+
+$color-card-good: #5dcc68;
+$color-card-wrong: #d22b2b;
+
+/********* USEFUL ************/
+
+.rotate180 {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.primary {
+  --background: $color-primary;
+  --background-focused: $color-primary-shade;
+  --background-activated: $color-primary-shade;
+
+  background-color: $color-primary;
+
+  &.button {
+    border-radius: 10px;
+
+    &:hover {
+      --background-hover: $color-primary-shade;
+      background-color: $color-primary-shade;
+    }
+  }
+}
+
+.secondary {
+  --background: $color-secondary;
+  --background-focused: $color-secondary-shade;
+  --background-activated: $color-secondary-shade;
+
+  background-color: $color-secondary;
+
+  &.button {
+    border-radius: 10px;
+
+    &:hover {
+      --background-hover: $color-secondary-shade;
+      background-color: $color-secondary-shade;
+    }
+  }
+}
+
+.tertiary {
+  --background: $color-tertiary;
+  --background-focused: $color-tertiary-shade;
+  --background-activated: $color-tertiary-shade;
+
+  background-color: $color-tertiary;
+
+  &.button {
+    border-radius: 10px;
+
+    &:hover {
+      --background-hover: $color-tertiary-shade;
+      background-color: $color-tertiary-shade;
+    }
+  }
+}
+
+.light {
+  --background: $color-light;
+  --background-focused: $color-light-shade;
+  --background-activated: $color-light-shade;
+
+  background-color: $color-light;
+  border-radius: 10px;
+
+  &.button {
+    &:hover {
+      --background-hover: $color-light-shade;
+      background-color: $color-light-shade;
+    }
+  }
+}
+
+/********* ROOT ************/
+
+:root {
+  --ion-background-color: #1e2644;
+  --ion-item-background: #1e1e1e;
+  --ion-text-color: #ffffff;
+  --border-color: #fffeff00;
+
+  ion-toolbar {
+    --ion-text-color: #ffffff;
+    border: none;
+    box-shadow: none;
+  }
+}
+
+ion-button {
+  width: 90%;
+  margin: 10px auto;
+  display: block;
+}
+
+ion-grid {
+  margin-top: 20px;
+}
+
+ion-row {
+  margin: 20px 0;
+}
+
+ion-col {
+  z-index: 1;
+  height: 50px;
+  text-align: center;
+  margin: 0 10px;
+  padding: 15px 0;
+  border: 3px solid $color-border;
+  background-color: $color-background;
+  border-radius: 15px;
+
+  &:hover {
+    background-color: $color-border;
+    cursor: pointer;
+  }
+}
+
+ion-progress-bar {
+  height: 30px;
+  --buffer-background: $color-background;
+  --progress-background: linear-gradient(
+    270deg,
+    #8a2387 0%,
+    #e94057 46.96%,
+    #f27121 91.67%
+  );
+  border: 3px solid $color-border;
+  border-radius: 60px;
+  margin-bottom: 20px;
+}
+
+/********* HOME ************/
+
+.home {
+  img {
+    margin-top: 15px;
+  }
+
+  .background-logo {
+    position: absolute;
+    left: 10px;
+    top: 170px;
+    transform: rotate(-15deg);
+    background-image: $color-logo;
+    width: 250px;
+    height: 70px;
+    border-radius: 60px;
+  }
+
+  .title-logo {
+    transform: rotate(-15deg);
+    color: white;
+    width: 237px;
+    height: 78px;
+    font-family: Prosto One;
+    text-align: center;
+    font-size: 55px;
+    letter-spacing: 15;
+    -webkit-text-stroke: 5px white;
+    margin-left: 40px;
+  }
+
+  .list-button {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    margin-top: 60px;
+  }
+}
+
+/********* MENU ************/
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  color: $color-light-shade;
+  font-size: 20px;
+}
+
+/********* QUESTION ************/
+
+.container {
+  width: 80%;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.question-card {
+  width: 220px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: $color-background;
+  box-shadow: none;
+
+  ion-card-title {
+    padding: 5px;
+    font-size: 20px;
+    border-bottom: white 2px dashed;
+    margin-bottom: 20px;
+  }
+
+  ion-card-content {
+    color: white;
+    width: fit-content;
+    padding: 0;
+  }
+}
+
+.possibleResponse {
+  margin-top: 40px;
+
+  ion-item {
+    border-radius: 15px;
+    margin-bottom: 10px;
+    --background: $color-background;
+    background-color: $color-background;
+    border: 3px solid $color-border;
+
+    &:hover,
+    &:active {
+      --background: $color-border;
+      background-color: $color-border;
+      cursor: pointer;
+    }
+  }
+}
+
+#showScore {
+  float: right;
+}
+
+.result {
+  //box-shadow: #555bff 0px 0px 0px 2px, #1fc11b 0px 0px 0px 4px, #ffd913 0px 0px 0px 6px, #ff9c55 0px 0px 0px 8px, #ff5555 0px 0px 0px 12px;
+  box-shadow: $color-primary 0px 0px 0px 4px, $color-secondary 0px 0px 0px 8px,
+    $color-tertiary 0px 0px 0px 10px;
+  padding: 10px;
+  margin-top: 60px;
+
+  img {
+    margin-top: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  ion-card-title {
+    margin-top: 10px;
+  }
+  ion-card-content {
+    text-align: center;
+    width: auto;
+  }
+  ion-button {
+    display: block;
+    width: 70%;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.button-85 {
+  display: block;
+  margin: 10px auto;
+  margin-top: 20px;
+  padding: 0.6em 2em;
+  border: none;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+  &:before {
+    content: "";
+    background: linear-gradient(
+      45deg,
+      #8a2387,
+      #f8326a,
+      #ee213c,
+      #ff6200,
+      #f06326,
+      #8a2387
+    );
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    background-color: $color-background;
+    z-index: -1;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing-button-85 20s linear infinite;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 10px;
+  }
+
+  &:after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: $color-background;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+  }
+}
+
+@keyframes glowing-button-85 {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.bgContainer {
+  height: 85vh;
+  background-image: url("/assets/bg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right 35% bottom 30%;
+}
+
+/********* RANKS ************/
+
+.ranks {
+  --background: $color-background;
+  background-color: $color-background;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  ion-item {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 15px;
+    margin-bottom: 10px;
+    --background: $color-background;
+    background-color: $color-background;
+    border: 3px solid $color-border;
+
+    ion-note {
+      font-size: 14px;
+      margin: 0px 10px;
+      margin-top: -2px;
+    }
+
+    #rank {
+      font-size: 20px;
+      margin-top: -6px;
+      margin-left: -6px;
+      --ion-color-base: $color-border-light;
+      color: $color-border-light;
+    }
+  }
+
+  #Me {
+    border: 3px solid $color-secondary-shade;
+
+    #rank {
+      font-size: 20px;
+      margin-top: -6px;
+      margin-left: -6px;
+      --ion-color-base: $color-secondary;
+      color: $color-secondary;
+    }
+  }
+}
+
+/********* SETTINGS ************/
+
+.item-parameter {
+  font-size: 12px;
+}
+
+.item-button {
+  width: 70%;
+  margin: 10px auto;
+  margin-top: 40px;
+  display: block;
+}

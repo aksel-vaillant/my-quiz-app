@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-toolbar class="secondary">
+    <ion-buttons slot="start">
+      <ion-back-button text="" color="light"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Ranks</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-button class="item-button secondary button" (click)="findMe()">Find me</ion-button>
+
+  <!-- List of Text Items -->
+  <ion-list class="ranks">
+    <ion-item *ngFor="let user of users; let index = index;" [id]="user.pseudo">
+      <ion-note id="rank" slot="start">{{index+1}}</ion-note>
+      <ion-label>{{user.pseudo}}</ion-label>
+      <ion-note slot="end" color="light">{{user.score}} pts</ion-note>
+    </ion-item>
+  </ion-list>
+
+
+</ion-content>
