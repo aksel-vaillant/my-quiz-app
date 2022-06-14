@@ -15,4 +15,9 @@ Features
   - Visualizing our rank - in a fake ranking - with fake users
   - Setting game parameters - the amount of questions, the difficulty and the type of question (true/false or multiple choices)
 
-<img src="ihm.png" width="100%">
+
+
+
+<p align="center" style="margin-top:50px;">
+  <img src="ihm.PNG" width="35%" height="300px">
+</p>
