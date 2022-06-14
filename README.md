@@ -4,7 +4,7 @@ Realized by Aksel Vaillant.
 CSE students at ENSIM - Le Mans Université [FRANCE]   
 Under the direction of Mr. Denis Apparicio & Mr. Paul Cordon   
 
-Made with Ionic and Trivia Api - https://core.telegram.org/bots/api
+Made with Ionic and Trivia Api - https://opentdb.com/api_config.php
 
 -----------------------------------------
 
