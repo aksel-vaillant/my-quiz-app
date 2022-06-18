@@ -2,6 +2,7 @@ import { DBKey, DBService } from './../service/db.service';
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { Question, QuestionDifficulty, QuestionType} from '../service/trivia.data';
+import { ToastController } from '@ionic/angular';
 
 @Component({
   selector: 'app-question',
@@ -38,7 +39,7 @@ export class QuestionPage implements OnInit {
   duration : string
   totalScore : number
 
-  constructor(private dbService : DBService,  private route: Router) {}
+  constructor(private dbService : DBService,  private route: Router, public toastController: ToastController) {}
 
   // Getting values from DB and capacitor storage
   async getValuesFromDB(){    
@@ -57,10 +58,23 @@ export class QuestionPage implements OnInit {
 
     // Setting up maxQuestion
     this.maxQuestion = +this.duration
+
+    // Add listener for internet connection
+    window.addEventListener('online', () => this.presentToast("Internet is back!"));
+    window.addEventListener('offline', () => this.presentToast("Your internet connection is down!"));
     
     console.log(`${this.TAG} strating quiz`);
     this.quiz()
   }
+
+    // Show a toast
+    async presentToast(str : string) {
+      const toast = await this.toastController.create({
+        message: str,
+        duration: 3000
+      });
+      toast.present();
+    }
 
   quiz(){
     this.initializeQuiz()
